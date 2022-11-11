@@ -42,12 +42,3 @@ header nav ul {
 		gap: 2rem;
 	}
 }
-
-header nav ul button {
-	background: none;
-	outline: none;
-	border: none;
-	color: var(--color-neutral);
-	font-weight: var(--font-regular);
-	font-size: 1.125rem;
-}
