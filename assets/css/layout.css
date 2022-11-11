@@ -1,0 +1,22 @@
+body > article,
+body > div {
+	width: 100%;
+	padding: 4rem 2rem;
+}
+@media screen and (min-width: 1200px) {
+	body > article,
+	body > div {
+		padding: 4rem 0;
+	}
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.widthContainer {
+	max-width: var(--width-container);
+	margin: 0 auto;
+}

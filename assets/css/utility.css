@@ -1,0 +1,11 @@
+.underline {
+	text-decoration: underline;
+}
+
+.errorText {
+	color: var(--color-error);
+}
+
+.errorInput {
+	border: 1px solid var(--color-error);
+}

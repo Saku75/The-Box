@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Default -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TheBox</title>
+
+		<!-- Preload -->
+		<link rel="preload" href="assets/css/main.css" as="style" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<!-- JS -->
+		<script type="module" src="assets/js/main.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<div class="widthContainer">
+				<img src="/assets/img/theboxlogo.svg" alt="TheBox Logo" />
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#about">About Us</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<article id="hero">
+			<div class="widthContainer">
+				<h1>Building things is our mission.</h1>
+			</div>
+		</article>
+		<article id="reputation" class="widthContainer">
+			<h2>Our Reputation</h2>
+			<div class="cardGroup">
+				<section>
+					<img src="/assets/img/headphoneicon.svg" alt="Headset Icon" />
+					<h3>Best Services</h3>
+					<p>Nullam senectus porttitor eget. Eget rutrum leo interdum.</p>
+				</section>
+				<section>
+					<img src="/assets/img/headphoneicon.svg" alt="Headset Icon" />
+					<h3>Best Teams</h3>
+					<p>Cursus semper tellus volutpat aliquet lacus.</p>
+				</section>
+				<section>
+					<img src="/assets/img/pencilrulericon.svg" alt="Pencil/Ruler Icon" />
+					<h3>Best Designs</h3>
+					<p>Ultricies at ipsum nunc, tristique nam lectus.</p>
+				</section>
+			</div>
+		</article>
+		<article id="about" class="widthContainer">
+			<img src="/assets/img/founder.jpg" alt="About Us" />
+			<div>
+				<h2>About us</h2>
+				<p>
+					For more than 30 years we have been delivering world-class construction and we've built
+					many lasting relationships along the way.
+				</p>
+				<p>
+					We've matured into an industry leader and trusted resource for those seeking quality,
+					innovation and reliability when building in the U.S.
+				</p>
+				<a href="/about.html">More on Our History</a>
+			</div>
+		</article>
+		<article id="consultation">
+			<div class="widthContainer">
+				<div>
+					<h2>Free consultation with exceptional quality</h2>
+					<p>Just one call away: <a class="underline" href="tel:+8411022703">+84 1102 2703</a></p>
+				</div>
+				<a href="/consultation.html">Get your consultation</a>
+			</div>
+		</article>
+		<article id="projects" class="widthContainer">
+			<h2>Projects</h2>
+			<figure id="slides"></figure>
+		</article>
+		<article id="contact">
+			<h2>How can we help you?</h2>
+			<p>
+				We are ready to work on a project of any complexity, <br />
+				whether it's commercial or residential.
+			</p>
+			<form novalidate id="contactForm">
+				<input type="text" name="name" id="contactName" placeholder="Your Name" required />
+				<p class="errorText" id="contactNameError"></p>
+
+				<input type="text" name="email" id="contactEmail" placeholder="Your Email" required />
+				<p class="errorText" id="contactEmailError"></p>
+
+				<textarea name="message" id="contactMessage" placeholder="Message" required></textarea>
+				<p class="errorText" id="contactMessageError"></p>
+
+				<button type="submit">Submit</button>
+			</form>
+		</article>
+		<div id="info" class="widthContainer">
+			<div>
+				<address>
+					<p><span class="blueText">Address:</span> 6391 Elgin St. Celina, Delaware 10299</p>
+					<p><span class="blueText">Phone:</span> <a href="tel:+8411022703">+84 1102 2703</a></p>
+					<p>
+						<span class="blueText">Email:</span>
+						<a href="mailto:hello@thebox.com">hello@thebox.com</a>
+					</p>
+				</address>
+				<img src="/assets/img/theboxlogo.svg" alt="TheBox Logo" />
+			</div>
+			<div>
+				<p class="blueText">Newsletter:</p>
+				<form novalidate id="newsletterForm">
+					<input
+						type="email"
+						name="email"
+						id="newsletterEmail"
+						placeholder="Your email here"
+						required />
+					<button type="submit">subscribe</button>
+					<p class="errorText" id="newsletterEmailError"></p>
+				</form>
+				<p class="blueText">Social:</p>
+				<ul>
+					<li>
+						<a href="https://facebook.com" target="_blank"
+							><img src="assets/img/social-facebook.svg" alt="TheBox on Facebook"
+						/></a>
+					</li>
+					<li>
+						<a href="https://linkedin.com" target="_blank"
+							><img src="assets/img/social-linkedin.svg" alt="TheBox on LinkedIn"
+						/></a>
+					</li>
+					<li>
+						<a href="https://twitter.com" target="_blank"
+							><img src="assets/img/social-twitter.svg" alt="TheBox on Twitter"
+						/></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			<div class="widthContainer">
+				<p>TheBox Company &copy; 2022. All Rights Reserved</p>
+			</div>
+		</footer>
+	</body>
+</html>

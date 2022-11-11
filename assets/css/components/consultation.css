@@ -1,0 +1,38 @@
+#consultation {
+	width: 100%;
+	padding: 6.25rem 0;
+	background-image: url("/assets/img/consultation.jpg");
+	background-size: cover;
+	background-position: center;
+	color: var(--color-white);
+}
+
+#consultation > div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#consultation h2 {
+	font-size: 2.25rem;
+	font-weight: var(--font-bold);
+	margin-bottom: 1.5rem;
+}
+
+#consultation p {
+	font-size: 1.5rem;
+}
+
+#consultation > div > a {
+	border: 2px solid var(--color-white);
+	padding: 1rem 1.25rem;
+	border-radius: var(--border-radius);
+	font-weight: var(--font-bold);
+	font-size: 1.125rem;
+}
+
+#consultation > div > a:hover,
+#consultation > div > a:active {
+	border-color: var(--color-secondary);
+	background-color: var(--color-neutral);
+}

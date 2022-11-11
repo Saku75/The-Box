@@ -1,0 +1,18 @@
+#hero {
+	padding: 0;
+	width: 100%;
+	background-image: url("/assets/img/hero.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#hero div {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+#hero h1 {
+	width: 50%;
+	font-size: 4.5rem;
+}

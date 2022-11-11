@@ -1,0 +1,9 @@
+#projects h2 {
+	font-size: 2.25rem;
+	margin-bottom: 1rem;
+}
+
+#projects .slides {
+	width: 100%;
+	background-color: aquamarine;
+}

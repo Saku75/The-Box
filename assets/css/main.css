@@ -1,0 +1,23 @@
+/* Import montserrat regular and bold */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+/* Import variables */
+@import "./variables.css";
+
+/* Import base, layout and utility */
+@import "./base.css";
+@import "./layout.css";
+@import "./utility.css";
+
+/* Import components */
+@import "./components/header.css";
+@import "./components/hero.css";
+@import "./components/reputation.css";
+@import "./components/about.css";
+@import "./components/consultation.css";
+@import "./components/projects.css";
+@import "./components/contact.css";
+@import "./components/info.css";
+@import "./components/footer.css";
+
+@import "./components/slides.css";
