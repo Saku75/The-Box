@@ -2,11 +2,6 @@
 	--width-container: 1170px;
 	--border-radius: 0.25rem;
 
-	--font-family: "Montserrat", sans-serif;
-	--font-regular: 400;
-	--font-bold: 700;
-}
-.light:root {
 	--color-bg: #fff;
 	--color-primary: #2947a9;
 	--color-secondary: #f9995d;
@@ -19,19 +14,8 @@
 		contrast(88%);
 	--color-svg-hover: invert(81%) sepia(50%) saturate(1407%) hue-rotate(313deg) brightness(94%)
 		contrast(107%);
-	--color-img: none;
-}
-.dark:root {
-	--color-bg: #292e3d;
-	--color-primary: #2947a9;
-	--color-secondary: #e46415;
-	--color-neutral: #bebebe;
-	--color-grey: #5a5b5f;
-	--color-light: #4e5569;
-	--color-white: #ffffff;
-	--color-error: #ee0000;
-	--color-svg: invert(85%) sepia(10%) saturate(4%) hue-rotate(13deg) brightness(88%) contrast(93%);
-	--color-svg-hover: invert(56%) sepia(49%) saturate(7247%) hue-rotate(1deg) brightness(98%)
-		contrast(84%);
-	--color-img: brightness(75%);
+
+	--font-family: "Montserrat", sans-serif;
+	--font-regular: 400;
+	--font-bold: 700;
 }
