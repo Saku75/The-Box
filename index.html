@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 
 		<!-- JS -->
-		<script type="module" src="assets/js/main.js" defer></script>
+		<script class="svg-img" type="module" src="assets/js/main.js" defer></script>
 	</head>
 	<body>
 		<header>
@@ -31,6 +31,7 @@
 			</div>
 		</header>
 		<article id="hero">
+			<img src="/assets/img/hero.jpg" alt="Hero Image" />
 			<div class="widthContainer">
 				<h1>Building things is our mission.</h1>
 			</div>
@@ -56,7 +57,7 @@
 			</div>
 		</article>
 		<article id="about" class="widthContainer">
-			<img src="/assets/img/founder.jpg" alt="About Us" />
+			<img src="/assets/img/founder.jpg" alt="TheBox Founder" />
 			<div>
 				<h2>About us</h2>
 				<p>
@@ -81,7 +82,7 @@
 		</article>
 		<article id="projects" class="widthContainer">
 			<h2>Projects</h2>
-			<figure id="slides"></figure>
+			<figure class="darken-img" id="slides"></figure>
 		</article>
 		<article id="contact">
 			<h2>How can we help you?</h2>
@@ -90,12 +91,15 @@
 				whether it's commercial or residential.
 			</p>
 			<form novalidate id="contactForm">
+				<label for="contactName">Name</label>
 				<input type="text" name="name" id="contactName" placeholder="Your Name" required />
 				<p class="errorText" id="contactNameError"></p>
 
+				<label for="contactEmail">Email:</label>
 				<input type="text" name="email" id="contactEmail" placeholder="Your Email" required />
 				<p class="errorText" id="contactEmailError"></p>
 
+				<label for="contactMessage">Message:</label>
 				<textarea name="message" id="contactMessage" placeholder="Message" required></textarea>
 				<p class="errorText" id="contactMessageError"></p>
 
@@ -117,6 +121,7 @@
 			<div>
 				<p class="blueText">Newsletter:</p>
 				<form novalidate id="newsletterForm">
+					<label for="newsletterEmail">Email:</label>
 					<input
 						type="email"
 						name="email"

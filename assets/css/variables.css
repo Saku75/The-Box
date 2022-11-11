@@ -2,6 +2,7 @@
 	--width-container: 1170px;
 	--border-radius: 0.25rem;
 
+	--color-bg: #fff;
 	--color-primary: #2947a9;
 	--color-secondary: #f9995d;
 	--color-neutral: #292e3d;
@@ -9,6 +10,10 @@
 	--color-light: #f6f8f7;
 	--color-white: #ffffff;
 	--color-error: #ee0000;
+	--color-svg: invert(14%) sepia(44%) saturate(396%) hue-rotate(186deg) brightness(93%)
+		contrast(88%);
+	--color-svg-hover: invert(81%) sepia(50%) saturate(1407%) hue-rotate(313deg) brightness(94%)
+		contrast(107%);
 
 	--font-family: "Montserrat", sans-serif;
 	--font-regular: 400;
