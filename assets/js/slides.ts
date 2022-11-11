@@ -31,7 +31,7 @@ export default class Slides {
 		const previous = document.createElement("button");
 		previous.classList.add("slide-button");
 		previous.classList.add("slide-previous");
-		previous.innerHTML = "Previous";
+		previous.innerHTML = "&#10094;";
 		previous.addEventListener("click", () => {
 			this.previousSlide();
 		});
@@ -40,7 +40,7 @@ export default class Slides {
 		const next = document.createElement("button");
 		next.classList.add("slide-button");
 		next.classList.add("slide-next");
-		next.innerHTML = "Next";
+		next.innerHTML = "&#10095;";
 		next.addEventListener("click", () => {
 			this.nextSlide();
 		});

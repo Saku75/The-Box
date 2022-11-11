@@ -23,17 +23,28 @@
 	color: #fff;
 	display: flex;
 	align-items: center;
-	padding: 1rem 2rem;
+	padding: 0.5rem 1rem;
 }
 
 #slides div.slide div.slide-text p.slide-heading {
-	font-size: 1.875rem;
+	font-size: 1.25rem;
 	font-weight: var(--font-bold);
-	margin-right: 2rem;
+	margin-right: 1rem;
 }
 
 #slides div.slide div.slide-text p.slide-description {
-	font-size: 1.5rem;
+	font-size: 1rem;
+}
+@media screen and (min-width: 768px) {
+	#slides div.slide div.slide-text {
+		padding: 1rem 2rem;
+	}
+	#slides div.slide div.slide-text p.slide-heading {
+		font-size: 1.875rem;
+	}
+	#slides div.slide div.slide-text p.slide-description {
+		font-size: 1.5rem;
+	}
 }
 
 #slides button.slide-button {
@@ -41,8 +52,16 @@
 	background-color: #2947a977;
 	color: var(--color-white);
 	position: absolute;
-	padding: 1.5rem;
+	padding: 1rem;
 	z-index: 1;
+	top: 0;
+}
+@media screen and (min-width: 768px) {
+	#slides button.slide-button {
+		top: 50%;
+		transform: translateY(-50%);
+		padding: 1.5rem;
+	}
 }
 
 #slides button.slide-button:hover {
@@ -51,14 +70,10 @@
 
 #slides button.slide-next {
 	right: 0;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 #slides button.slide-previous {
 	left: 0;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 .slide-fade-in {
