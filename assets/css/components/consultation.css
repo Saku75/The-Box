@@ -34,5 +34,4 @@
 #consultation > div > a:hover,
 #consultation > div > a:active {
 	border-color: var(--color-secondary);
-	background-color: var(--color-neutral);
 }

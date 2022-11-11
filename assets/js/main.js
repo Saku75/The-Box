@@ -1,5 +1,6 @@
 // Imports
 import Slides from "./slides.js";
+import ThemeSwitcher from "./themeSwitcher.js";
 
 // DOM Elements
 // Contact from
@@ -122,3 +123,12 @@ new Slides(document.querySelector("#slides"), [
 		description: "2464 Royal Ln. Mesa, New Jersey",
 	},
 ]);
+
+new ThemeSwitcher(
+	"theme-switcher",
+	[
+		{ name: "light", label: "Light Theme", icon: "/assets/img/theme-light.svg" },
+		{ name: "dark", label: "Dark Theme", icon: "/assets/img/theme-dark.svg" },
+	],
+	["light", "dark"]
+);

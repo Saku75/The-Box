@@ -9,3 +9,18 @@
 .errorInput {
 	border: 1px solid var(--color-error);
 }
+
+img.svg-img,
+.svg-img img {
+	filter: var(--color-svg);
+	transition: filter 0.2s ease;
+}
+img.svg-img:hover,
+.svg-img img:hover {
+	filter: var(--color-svg-hover);
+}
+
+img.darken-img,
+.darken-img img {
+	filter: var(--color-img);
+}
